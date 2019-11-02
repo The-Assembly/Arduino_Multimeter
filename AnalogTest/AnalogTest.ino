@@ -190,9 +190,6 @@ void loop()
    // Analog Test
   if(mode==3) 
   {
-         if(digitalRead(4)==0)
-   { 
-    delay(100); }
   display.clearDisplay();
   display.setFont();
   display.setTextColor(WHITE);
